@@ -21,6 +21,7 @@ public class AliThermSubApplication implements CommandLineRunner {
         SpringApplication.run(AliThermSubApplication.class, args);
     }
 
+    @Override
     public void run(String... args) throws Exception {
 
         System.out.println("CommandLine Start");
