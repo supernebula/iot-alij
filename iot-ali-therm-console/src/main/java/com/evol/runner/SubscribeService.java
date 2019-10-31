@@ -16,8 +16,8 @@ public class SubscribeService {
 
     private static final String accessKeyId = "111";
     private static final String accessKeySecret = "222";
-    private static final String endpoint = "https://1814113004274295.mns.cn-shanghai.aliyuncs.com/";
-    private static final String queueName = "aliyun-iot-a1lH5vdBSs8";
+    private static final String endpoint = "https://xxxxxx.aliyuncs.com/";
+    private static final String queueName = "aliyun-iot-xxxxxx";
     private MNSClient client = null;
 
     public SubscribeService()
