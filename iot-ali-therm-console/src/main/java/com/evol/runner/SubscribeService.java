@@ -14,8 +14,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class SubscribeService {
 
-    private static final String accessKeyId = "LTAI4FevWzDPTiVYfz6MhNQb";
-    private static final String accessKeySecret = "8NTfrCeVp6F3t9D5QMQpR6XWfrzTih";
+    private static final String accessKeyId = "111";
+    private static final String accessKeySecret = "222";
     private static final String endpoint = "https://1814113004274295.mns.cn-shanghai.aliyuncs.com/";
     private static final String queueName = "aliyun-iot-a1lH5vdBSs8";
     private MNSClient client = null;
