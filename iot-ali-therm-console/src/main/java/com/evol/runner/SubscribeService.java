@@ -6,24 +6,26 @@ import com.aliyun.mns.client.MNSClient;
 import com.aliyun.mns.model.Message;
 import com.evol.model.DeviceMessage;
 import com.evol.model.Payload;
-import com.google.gson.annotations.JsonAdapter;
 import evol.util.Base64Util;
 import evol.util.JSONUtil;
 import org.springframework.stereotype.Service;
 
+import java.nio.charset.StandardCharsets;
+
 @Service
 public class SubscribeService {
 
-    private static final String accessKeyId = "111";
-    private static final String accessKeySecret = "222";
-    private static final String endpoint = "https://xxxxxx.aliyuncs.com/";
-    private static final String queueName = "aliyun-iot-xxxxxx";
+    private static final String accessKeyId = "LTAI4FevWzDPTiVYfz6MhNQb";
+    private static final String accessKeySecret = "8NTfrCeVp6F3t9D5QMQpR6XWfrzTih";
+    private static final String endpoint = "https://1814113004274295.mns.cn-shanghai.aliyuncs.com/";
+    private static final String queueName = "aliyun-iot-a1lH5vdBSs8";
     private MNSClient client = null;
 
     public SubscribeService()
     {
         CloudAccount account = new CloudAccount(accessKeyId, accessKeySecret, endpoint);
         client = account.getMNSClient();
+
     }
 
 
