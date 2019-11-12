@@ -11,6 +11,7 @@
     <modules>
         <module>evol-util</module>
         <module>iot-ali-therm</module>
+        <module>data-sync/cmd-sync-console</module>
     </modules>
 
 
