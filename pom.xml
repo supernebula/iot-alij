@@ -12,6 +12,8 @@
         <module>evol-util</module>
         <module>iot-ali-therm</module>
         <module>data-sync/cmd-sync-console</module>
+        <module>iot-ali-rmq-producer-console</module>
+        <module>iot-ali-rmq-consumer-console</module>
     </modules>
 
 
