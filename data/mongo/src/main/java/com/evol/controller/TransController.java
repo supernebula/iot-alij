@@ -53,6 +53,12 @@ public class TransController {
         return trans;
     }
 
+    @GetMapping(value = "/getbyorderno/{orderno}")
+    public Transaction get(@PathVariable("orderno") String orderno){
+        Transaction trans = transRepository.getTransByOrderNo(orderno);
+        return trans;
+    }
+
     @GetMapping(value = "/update/{id}")
     public boolean update(@PathVariable("id") int id){
         boolean success = transRepository.updateTransStatusById(id, 8);

@@ -7,14 +7,14 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-//@Document(collection = "transactions")
+@Document(collection = "transactions")
 @Data
 public class Transaction  implements Serializable {
 
     /// <summary>
     /// 充电ID
     /// </summary>
-    private int id;
+    private int Id;
     /// <summary>
     /// 订单号
     /// </summary>

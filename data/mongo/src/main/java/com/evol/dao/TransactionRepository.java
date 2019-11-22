@@ -20,7 +20,7 @@ public class TransactionRepository {
 
     public Transaction getTransById(int id){
         Query query = new Query(Criteria.where("Id").is(id));
-        Transaction trans = mongoTemplate.findOne(query, Transaction.class, "transactions");
+        Transaction trans = mongoTemplate.findOne(query, Transaction.class);
         return trans;
     }
 
